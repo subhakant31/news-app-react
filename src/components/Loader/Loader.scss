@@ -1,0 +1,40 @@
+.loader-wrapper {
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+.loader {
+   
+    position: relative;
+    background-image:
+      linear-gradient(#fff2c5 16px, transparent 0) ,
+      linear-gradient(#ce93d8 16px, transparent 0) ,
+      linear-gradient(#eae4fd 16px, transparent 0) ,
+      linear-gradient(#42a5f5 16px, transparent 0);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left top , left bottom , right top , right bottom;
+    animation: rotate 1s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+      width: 64px;
+      height: 64px;
+      transform: rotate(0deg)
+    }
+    50% {
+      width: 30px;
+      height: 30px;
+      transform: rotate(180deg)
+    }
+    100% {
+      width: 64px;
+      height: 64px;
+      transform: rotate(360deg)
+    }
+  }

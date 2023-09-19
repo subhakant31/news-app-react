@@ -1,0 +1,8 @@
+@import '../../styles/partials/variables';
+.news-title {
+    font-size: $h2;
+    width: 90%;
+    margin: auto;
+    text-transform: capitalize;
+    margin-top: 20px;
+}

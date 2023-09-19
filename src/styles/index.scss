@@ -1,0 +1,13 @@
+@import "./partials/functions";
+@import "./partials/variables";
+@import "./partials/reset";
+@import "./partials/mixins";
+
+body {
+  background-color: $bodyBgColor;
+  color: $white;
+  font-family: "Inconsolata", monospace;
+  font-size: $defaultFont;
+  height: 100vh;
+  overflow: hidden;
+}

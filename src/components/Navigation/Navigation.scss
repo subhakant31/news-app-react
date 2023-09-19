@@ -1,0 +1,20 @@
+.footer-navigation {
+    width: 90%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    .nav-btn {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: none;
+        svg {
+            font-size: 30px;
+        }
+        
+    }
+}

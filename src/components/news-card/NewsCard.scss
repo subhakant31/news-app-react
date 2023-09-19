@@ -1,0 +1,14 @@
+@import "../../styles/partials/variables";
+.news-card {
+  background-color: #fff2c5;
+  color: $black;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  height: 70vh;
+  overflow: scroll;
+  &__title {
+    font-size: $h2;
+  }
+}
